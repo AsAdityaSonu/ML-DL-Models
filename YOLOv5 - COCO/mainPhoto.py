@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 # yolov5 directory to the Python path
-repo_path = Path('/Users/adityapandey/Desktop/ML/YOLO/yolov5')
+repo_path = Path('YOLO/yolov5')
 sys.path.append(str(repo_path))
 
 import torch
@@ -12,7 +12,7 @@ import numpy as np
 # Load YOLOv5 model from the local repository
 model = torch.hub.load(repo_path, 'custom', path=repo_path / 'yolov5s.pt', source='local')
 
-image_path = 'CBlock.jpeg'  # img path
+image_path = 'CBlock.jpeg' 
 img = cv2.imread(image_path)
 
 results = model(img)
