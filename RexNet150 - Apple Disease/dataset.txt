@@ -1,0 +1,5 @@
+============================ LINK ============================
+https://www.kaggle.com/datasets/nirmalsankalana/apple-tree-leaf-disease-dataset/code
+
+============================ MODEL ============================
+https://drive.google.com/drive/folders/1UJsboQW7rb-AiinnkYqm_95NHHaKD79I?usp=drive_link
